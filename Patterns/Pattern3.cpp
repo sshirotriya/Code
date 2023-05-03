@@ -27,7 +27,7 @@ int main()
 
 ------------------------------------------------
     
-Floyd's Triangle
+// Floyd's Triangle
 1
 2 3
 4 5 6
