@@ -4,7 +4,6 @@
 4444
 55555
 
-------------------------------------------------
 #include <iostream>
 
 using namespace std;
@@ -33,7 +32,7 @@ int main()
 4 5 6
 7 8 9 10
   
--------------------------
+
 #include <iostream>
 using namespace std;
 int main()
