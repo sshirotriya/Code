@@ -5,59 +5,33 @@
  #####
 ######
 
----------------------------------------------------
 
-#include <bits/stdc++.h>
-
-using namespace std;
-int main()
-{
-    int n;
-    cin>> n;
-    int space=n-1,hash=1;
- 
- for (int i = 0; i < n; i++) {
- 
-        for (int j = 0; j < space; j++) {
-            
-            cout << " ";
+   #include <iostream> 
+   using namespace std;
+   int main() 
+   {
+       int n,i,j,k; 
+       cin>>n;
+       
+       for( i = 1 ; i <= n ; i++) 
+       { 
+           for( j = 1; j <= n-i ; j++) 
+           {
+                cout<<" ";
+           } 
+           for( k = 1 ; k <= i ; k++)
+           {
+               cout<<"#";
+           }
+           cout<<endl; 
+          
         }
-        for(int k=0;k<hash;k++)
-        {
-            cout<<"#";
-        }
-        cout << endl;
-        space--;
-        hash++;
-}
-}
-
---------------------------------------------------
+        return 0; 
+    }
      
-     
-int main()
-{
-     int i, j,n;
-     cin>>n;
-     for(i = 0 ; i < n ; i++)
-     {
-          for(j = 0 ; j < n ; j++)
-          {
-               if(i+j >= n+1)
-               {
-                    cout<<"*";
-               }
-               cout<<endl;
-          }
-
-    return 0;
-}
- 
--------------------------------------------------------
-     
-     
-     #include <iostream>
-
+ ------------------------------------------------- 
+      
+#include <iostream>
 using namespace std;
 
 int main()
