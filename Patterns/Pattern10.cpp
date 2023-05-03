@@ -15,11 +15,11 @@ int main()
 {
     int n,i,j,k;
     cin>>n;
-    int space = n-1;
+//     int space = n-1;
     
     for( i = 1 ; i <= n ; i++)
     {
-        for( j = 1; j <= space ; j++)
+        for( j = 1; j <= n-i ; j++)
         {
             cout<<" ";
         }
@@ -28,7 +28,7 @@ int main()
             cout<<i;
         }
         cout<<endl;
-        space--;
+//         space--;
     }
 
     return 0;
