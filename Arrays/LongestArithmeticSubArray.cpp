@@ -1,6 +1,8 @@
-/*7
+/*
+  7
   10 7 4 6 8 10 11
-  4*/
+  4
+ */
 #include <iostream>
 #include <math.h>
 
