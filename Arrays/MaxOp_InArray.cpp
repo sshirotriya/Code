@@ -1,3 +1,13 @@
+/*
+  5
+  1 2 0 7 2
+  1
+  2
+  2
+  7
+  7
+  */
+
 #include <iostream>
 #include <limits.h>
 
