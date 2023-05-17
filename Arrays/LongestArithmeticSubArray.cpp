@@ -1,8 +1,3 @@
-/*
-  7
-  10 7 4 6 8 10 11
-  4
- */
 #include <iostream>
 #include <math.h>
 
@@ -22,7 +17,7 @@ int main()
     int curr = 2; /*current arithmetic subarray length*/
     int j = 2;
     while(j < n) {
-        if(pd == arr[j] - arr[j-1]) {
+        if(pd == arr[j] - arr[j-1]) {  /* if previous common difference == current common differnce */
             curr++;
         } else {
             pd = arr[j] - arr[j-1];
@@ -34,3 +29,9 @@ int main()
     cout<<ans;
     return 0;
 }
+
+/*
+  7
+  10 7 4 6 8 10 11
+  4
+*/
